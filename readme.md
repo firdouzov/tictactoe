@@ -34,15 +34,14 @@ This project is a Tic Tac Toe game powered by a Q-learning algorithm. The AI imp
 ### Steps
 1. Clone this repository or download the script file.
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/firdouzov/tictactoe
    ```
 2. Navigate to the project directory.
    ```bash
-   cd tic-tac-toe-qlearning
-   ```
+   cd tictactoe
 3. Run the script.
    ```bash
-   python tic_tac_toe.py
+   python main.py
    ```
 
 ---
@@ -52,7 +51,7 @@ This project is a Tic Tac Toe game powered by a Q-learning algorithm. The AI imp
 ### Playing the Game
 1. Run the script:
    ```bash
-   python tic_tac_toe.py
+   python main.py
    ```
 2. Follow the prompts to make your moves. Enter a number between 1-9 to select a position on the board.
 3. The AI will play its turn and display the updated board.
@@ -69,7 +68,8 @@ This project is a Tic Tac Toe game powered by a Q-learning algorithm. The AI imp
 
 ```
 .
-├── tic_tac_toe.py       # Main script for the game
+├── main.py              # Main script for the game
+├── helper.py            # Helper Functions
 ├── q_table.pkl          # (Generated) Q-table file for persistent learning
 └── README.md            # This documentation file
 ```
