@@ -2,6 +2,9 @@
 
 This project is a Tic Tac Toe game powered by a Q-learning algorithm. The AI improves its gameplay with each match by learning from wins, losses, and draws. It uses a Q-table to store knowledge, allowing it to play more strategically over time.
 
+![image](https://github.com/user-attachments/assets/9d85ffaa-29c5-4e00-8b9e-89c45c4c84af)
+
+
 ---
 
 ## Features
